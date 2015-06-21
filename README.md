@@ -10,7 +10,7 @@ Setup steps
 1) clone current repo <br>
 2) create a database and import the ikann.sql<br>
 3) create a vritual host<br>
-4) www.ikann.com/auth/registrate to signup<br>
+4) www.ikann.com/auth/register to signup<br>
 5) www.ikann.com/auth/login to login<br>
 
 I will keep adding  the stuff and layout templte into project  you guys can clone this and play around 
