@@ -1,48 +1,107 @@
-<html>
-	<head>
-		<title>Laravel</title>
-		
-		<link href='//fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
+<!DOCTYPE html>
 
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #B0BEC5;
-				display: table;
-				font-weight: 100;
-				font-family: 'Lato';
-			}
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
+  <link rel="stylesheet" href="https://ca.ixl.com/combo/dv/agMZtBpM3EbjLNt5rplunj8eB6Y/yui3/crisp/?modules=crisp-css-base-min.css,crisp-css-buttons-min.css,crisp-css-forms-min.css,crisp-css-grids-min.css">
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/dv/agMZtBpM3EbjLNt5rplunj8eB6Y/yui3/crisp/crisp-css-pie-min.css">
+<![endif]-->
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
 
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
+  <link rel="stylesheet" type="text/css" href="/css/style.css">
 
-			.quote {
-				font-size: 24px;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
-			</div>
-		</div>
-	</body>
-</html>
+  <link rel="stylesheet" href="/css/site-nav-css-min.css">
+
+
+
+  <link rel="stylesheet" href="https://ca.ixl.com/dv/iPLRfGCjxuQp1PqAWjXZwScHxnM/yui3/home-page/home-page-css.css">
+
+
+  <link rel="stylesheet" href="https://ca.ixl.com/dv/jpKJ1Iw-TctPAkuZE5qSy30cwlk/yui3/signin/signin-css-min.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/profile.css">
+  <link rel="stylesheet" type="text/css" href="/css/marketing.css">
+<link charset="utf-8" rel="stylesheet" id="yui_3_14_0_1_1435241067209_2" href="https://ca.ixl.com/combo/dv/uVlDn9O2ELkxNpmlXxziNb0VEfw/yui3/skill-search/?modules=skill-search-css-SkillSearchBar.css"><script charset="utf-8" id="yui_3_14_0_1_1435241067209_4" src="/css/3.14.0" async=""></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_5" src="/css/3.14(1).0" async=""></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_6" src="/css/saved_resource" async=""></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_7" src="/css/saved_resource(1)" async=""></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_8" src="/css/saved_resource(2)" async=""></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_79" src="/css/yuiloader-min.js"></script><script charset="utf-8" id="yui_3_14_0_1_1435241067209_80" src="/css/ixlloader.js"></script><script charset="utf-8" id="yui_3_14_0_2_1435241067209_2" src="/css/3.14(2).0" async=""></script><script charset="utf-8" id="yui_3_14_0_2_1435241067209_3" src="/css/saved_resource(3)" async=""></script><script charset="utf-8" id="yui_3_14_0_3_1435241067209_2" src="/css/3.14(3).0" async=""></script><script charset="utf-8" id="yui_3_14_0_3_1435241067209_3" src="/css/3.14(4).0" async=""></script><script charset="utf-8" id="yui_3_14_0_3_1435241067209_4" src="/css/saved_resource(4)" async=""></script><script charset="utf-8" id="yui_3_14_0_3_1435241067209_5" src="/css/saved_resource(5)" async=""></script><script type="text/javascript" src="chrome-extension://aadgmnobpdmgmigaicncghmmoeflnamj/ng-inspector.js"></script><link id="yui__dyn_0" type="text/css" rel="stylesheet" href="/css/button.css" charset="utf-8"><link id="yui__dyn_1" type="text/css" rel="stylesheet" href="/css/menu.css" charset="utf-8"><link id="yui__dyn_2" type="text/css" rel="stylesheet" href="/css/paginator.css" charset="utf-8"><script id="yui__dyn_3" type="text/javascript" src="/css/cookie-min.js" charset="utf-8"></script><script id="yui__dyn_4" type="text/javascript" src="/css/utilities.js" charset="utf-8"></script><script id="yui__dyn_0" type="text/javascript" src="/css/container-min.js" charset="utf-8"></script><script id="yui__dyn_1" type="text/javascript" src="/css/menu-min.js" charset="utf-8"></script><script id="yui__dyn_2" type="text/javascript" src="/css/button-min.js" charset="utf-8"></script><script id="yui__dyn_3" type="text/javascript" src="/css/utils.js" charset="utf-8"></script><script id="yui__dyn_4" type="text/javascript" src="/css/json-min.js" charset="utf-8"></script><script id="yui__dyn_5" type="text/javascript" src="/css/flowdialog.js" charset="utf-8"></script><script id="yui__dyn_6" type="text/javascript" src="/css/swfdetect-min.js" charset="utf-8"></script><script id="yui__dyn_7" type="text/javascript" src="/css/login.js" charset="utf-8"></script><script id="yui__dyn_8" type="text/javascript" src="/css/paginator-min.js" charset="utf-8"></script><script id="yui__dyn_9" type="text/javascript" src="/css/marketing.js" charset="utf-8"></script><script id="yui__dyn_10" type="text/javascript" src="/css/international.js" charset="utf-8"></script></head>
+
+<body class="ixl-skin ixl-home-page " id="yui_3_14_0_1_1435241067209_86"><iframe id="_yuiResizeMonitor" title="Text Resize Monitor" tabindex="-1" role="presentation" style="position: absolute; visibility: visible; border-width: 0px; width: 2em; height: 2em; left: 0px; top: -27px; background-color: transparent;"></iframe><div id="rememberTT" class="yui-module yui-overlay yui-tt yui-overlay-hidden" style="z-index: 60; visibility: hidden;"><div class="bd">By selecting "remember" you will stay signed in on this computer until you click "sign out." If this is a public computer please do not use this feature.</div></div>
+
+<header class="site-nav-header">
+<div id="hd">
+<a id="hd-logo" class="logo" href="/"><img id="hd-logo-img" alt="IXL" title="IXL" src="/img/lg_logo.png"></a>
+
+
+<div id="hd-utility" class="add-to-zindex-calculation"><form id="searchBar" class="hd-utility-item crisp-form" method="GET" action="https://ca.ixl.com/search"><div class="skill-search-box"><input type="search" name="q" class="skill-search-input" maxlength="200" placeholder="Search topics and skills" autocomplete="off" id="yui_3_14_0_1_1435241067209_48"><button tabindex="-1" type="submit" class="skill-search-button site-nav-header-button"><i class="icon-mag-glass"></i></button><div class="searchResultsContainer" style="display: none;"><div class="searchResults"></div><div class="searchResultsShadow"></div></div></div></form><a id="csd" class="hd-utility-item csd-select" href="https://ca.ixl.com/international"><span id="csd-flag" class="csd-flag csd-flag-ca"></span><span id="csd-arrow"></span></a></div>
+
+
+
+
+<div class="headertabs"><a href="/math" class="hd-tab">Math</a><a href="/reports" class="hd-tab">Reports</a><a href="/reward" class="hd-tab hd-tab-selected">Awards</a><a href="/math" class="hd-tab"> Provincial Curriculum </a><a href="/community" class="hd-tab">Community</a><a href="/" class="hd-tab">Membership</a></div>
+
+
+
+  
+  <form action="https://ca.ixl.com/signin" method="POST" id="quickLogin" class="crisp-form"><div class="quick-login-box"><input tabindex="1001" type="text" name="username" value="" placeholder="Username" id="qlusername" class="quick-login-text-input" autocomplete="off" autocapitalize="off" autocorrect="off"><input tabindex="1002" type="password" name="password" placeholder="Password" id="qlpassword" class="quick-login-text-input" autocomplete="off" autocapitalize="off" autocorrect="off"><button tabindex="1003" name="qlsubmit" value="true" type="submit" id="qlsubmit" class="quick-login-button site-nav-header-button" aria-label="Sign in"><i class="icon-arrow"></i></button><input tabindex="1004" type="checkbox" name="rememberUser" value="true" id="quick-login-remember" class="quick-login-checkbox" autocomplete="off"><label id="remember" for="quick-login-remember" class="quick-login-label">Remember</label></div></form>
+
+  <a href="https://ca.ixl.com/signin/ajax" id="hiddenlogin" data-ajax="true" style="display: none;" rel="nofollow">Sign in now</a>
+
+  <a href="https://ca.ixl.com/signin/switch" id="switchUserLink" style="display: none;" rel="nofollow"></a>
+  
+
+
+
+
+
+
+</div>
+</header>
+
+
+  <section class="home-featured" id="yui_3_14_0_1_1435241067209_89">
+    <header class="home-essence"><h4 class="home-essence-text"> Practice that feels like play </h4><h6 class="home-essence-text home-essence-sub-essence"> Dynamic, adaptive learning </h6></header><a href="https://ca.ixl.com/membership/" class="home-essence-link"></a><footer class="home-featured-footer" id="yui_3_14_0_1_1435241067209_88"><h1 class="home-header-text"><a href="https://ca.ixl.com/math/"> Math for <span class="home-header-blue-text"> Jr. Kindergarten </span> to <span class="home-header-green-text"> Grade 12 </span></a></h1></footer>
+  </section>
+
+  <section class="home-skill-tree site-nav-fixed-width home-skill-tree-ca" id="yui_3_14_0_1_1435241067209_85">
+    <div class="crisp-g" id="yui_3_14_0_1_1435241067209_84">
+      <div class="crisp-u-1-4" id="yui_3_14_0_1_1435241067209_83"><div class="home-grade-box itr0"><a href="https://ca.ixl.com/math/jr-kindergarten" class="skill-tree-grade-bubble crisp-pie blue1-bg"><span class="skill-tree-grade-letter-name white-text"> J </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/jr-kindergarten" class="home-skill-tree-header-link"><span class="blue1-text"> Jr. Kindergarten </span></a></h2><p class="home-grade-description"> Counting, comparing groups, inside and outside, long and short <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/jr-kindergarten"><span class="arrow-link-text">See all 41 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr1"><a href="https://ca.ixl.com/math/kindergarten" class="skill-tree-grade-bubble crisp-pie orange1-bg"><span class="skill-tree-grade-letter-name white-text"> K </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/kindergarten" class="home-skill-tree-header-link"><span class="orange1-text"> Kindergarten </span></a></h2><p class="home-grade-description"> Patterns, identifying shapes, skip-counting, sorting objects <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/kindergarten"><span class="arrow-link-text">See all 104 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr2"><a href="https://ca.ixl.com/math/grade-1" class="skill-tree-grade-bubble crisp-pie pink1-bg"><span class="skill-tree-grade-letter-name white-text"> 1 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-1" class="home-skill-tree-header-link"><span class="pink1-text"> Grade 1 </span></a></h2><p class="home-grade-description"> Adding doubles, subtraction word problems, estimation <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-1"><span class="arrow-link-text">See all 159 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr3"><a href="https://ca.ixl.com/math/grade-2" class="skill-tree-grade-bubble crisp-pie green1-bg"><span class="skill-tree-grade-letter-name white-text"> 2 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-2" class="home-skill-tree-header-link"><span class="green1-text"> Grade 2 </span></a></h2><p class="home-grade-description"> Place-value models, even and odd, reading clocks, fractions <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-2"><span class="arrow-link-text">See all 225 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr4"><a href="https://ca.ixl.com/math/grade-3" class="skill-tree-grade-bubble crisp-pie purple1-bg"><span class="skill-tree-grade-letter-name white-text"> 3 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-3" class="home-skill-tree-header-link"><span class="purple1-text"> Grade 3 </span></a></h2><p class="home-grade-description"> Multiplication facts, line graphs, units of measure, properties <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-3"><span class="arrow-link-text">See all 243 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr5"><a href="https://ca.ixl.com/math/grade-4" class="skill-tree-grade-bubble crisp-pie blue2-bg"><span class="skill-tree-grade-letter-name white-text"> 4 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-4" class="home-skill-tree-header-link"><span class="blue2-text"> Grade 4 </span></a></h2><p class="home-grade-description"> Adding decimals, calculating probabilities, bar graphs, symmetry <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-4"><span class="arrow-link-text">See all 182 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr6"><a href="https://ca.ixl.com/math/grade-5" class="skill-tree-grade-bubble crisp-pie orange2-bg"><span class="skill-tree-grade-letter-name white-text"> 5 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-5" class="home-skill-tree-header-link"><span class="orange2-text"> Grade 5 </span></a></h2><p class="home-grade-description"> Quadrilaterals, adding fractions, converting measurements, area <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-5"><span class="arrow-link-text">See all 206 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr7"><a href="https://ca.ixl.com/math/grade-6" class="skill-tree-grade-bubble crisp-pie blue3-bg"><span class="skill-tree-grade-letter-name white-text"> 6 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-6" class="home-skill-tree-header-link"><span class="blue3-text"> Grade 6 </span></a></h2><p class="home-grade-description"> Percentages, perimeter, variable expressions, exponents, angles <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-6"><span class="arrow-link-text">See all 211 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr8"><a href="https://ca.ixl.com/math/grade-7" class="skill-tree-grade-bubble crisp-pie pink2-bg"><span class="skill-tree-grade-letter-name white-text"> 7 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-7" class="home-skill-tree-header-link"><span class="pink2-text"> Grade 7 </span></a></h2><p class="home-grade-description"> Multiplying fractions, divisibility, proportional relationships, ratios <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-7"><span class="arrow-link-text">See all 243 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr9"><a href="https://ca.ixl.com/math/grade-8" class="skill-tree-grade-bubble crisp-pie purple2-bg"><span class="skill-tree-grade-letter-name white-text"> 8 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-8" class="home-skill-tree-header-link"><span class="purple2-text"> Grade 8 </span></a></h2><p class="home-grade-description"> Pythagorean theorem, linear equations, square roots, surface area <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-8"><span class="arrow-link-text">See all 211 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr10"><a href="https://ca.ixl.com/math/grade-9" class="skill-tree-grade-bubble crisp-pie red1-bg"><span class="skill-tree-grade-letter-name white-text"> 9 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-9" class="home-skill-tree-header-link"><span class="red1-text"> Grade 9 </span></a></h2><p class="home-grade-description"> Solving inequalities, multiplying polynomials, evaluating exponents <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-9"><span class="arrow-link-text">See all 190 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr11"><a href="https://ca.ixl.com/math/grade-10" class="skill-tree-grade-bubble crisp-pie green2-bg"><span class="skill-tree-grade-letter-name white-text"> 10 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-10" class="home-skill-tree-header-link"><span class="green2-text"> Grade 10 </span></a></h2><p class="home-grade-description"> Systems of equations, similar figures, cube roots, factoring <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-10"><span class="arrow-link-text">See all 293 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr12"><a href="https://ca.ixl.com/math/grade-11" class="skill-tree-grade-bubble crisp-pie orange3-bg"><span class="skill-tree-grade-letter-name white-text"> 11 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-11" class="home-skill-tree-header-link"><span class="orange3-text"> Grade 11 </span></a></h2><p class="home-grade-description"> Quadratic functions, trigonometry, radical expressions, sequences <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-11"><span class="arrow-link-text">See all 226 skills</span></a></h4></footer></div></div><div class="crisp-u-1-4"><div class="home-grade-box itr13"><a href="https://ca.ixl.com/math/grade-12" class="skill-tree-grade-bubble crisp-pie green3-bg"><span class="skill-tree-grade-letter-name white-text"> 12 </span></a><h2 class="home-skill-tree-header"><a href="https://ca.ixl.com/math/grade-12" class="home-skill-tree-header-link"><span class="green3-text"> Grade 12 </span></a></h2><p class="home-grade-description"> Binomial theorem, logarithmic equations, inverse functions <span class="and-more">and more.</span></p><footer class="home-skill-tree-footer"><h4 class="home-skill-tree-footer-math"><a class="arrow-link" href="https://ca.ixl.com/math/grade-12"><span class="arrow-link-text">See all 240 skills</span></a></h4></footer></div></div><div class="crisp-u-1-2"><div class="mobile-apps-box"><h2 class="home-skill-tree-header mobile-apps-header"> Mobile apps </h2><p class="home-grade-description mobile-apps-text"><span style="text-transform:capitalize">practise</span> math on the go with IXL's iPad and<br> Android apps! <a href="https://ca.ixl.com/apps" class="arrow-link"><span class="arrow-link-text">Learn more</span></a></p><div class="dv-app-lks"><a href="https://itunes.apple.com/ca/app/ixl-math-practice/id693689912" target="_blank" class="download-from-app-store-icon"></a><a href="https://play.google.com/store/apps/details?id=com.ixl.ixlmath" target="_blank" class="android-app-google-play-icon"></a></div></div></div>
+    </div>
+
+  </section>
+
+  
+    <section class="home-standards ca-standards"><div class="site-nav-fixed-width"><header class="home-standards-header"><a href="https://ca.ixl.com/standards/" class="home-standards-header-text">Provincial curricula</a></header><div class="home-standards-flags csd-ca"><ol class="home-standards-list"><li class="home-standards-item sflg s_csd-ca_ab"><a href="https://ca.ixl.com/standards/alberta" class="home-standards-link arrow-link"><span class="arrow-link-text">Alberta</span></a></li><li class="home-standards-item sflg s_csd-ca_bc"><a href="https://ca.ixl.com/standards/british-columbia" class="home-standards-link arrow-link"><span class="arrow-link-text">British Columbia</span></a></li><li class="home-standards-item sflg s_csd-ca_mb"><a href="https://ca.ixl.com/standards/manitoba" class="home-standards-link arrow-link"><span class="arrow-link-text">Manitoba</span></a></li><li class="home-standards-item sflg s_csd-ca_nb"><a href="https://ca.ixl.com/standards/new-brunswick" class="home-standards-link arrow-link"><span class="arrow-link-text">New Brunswick</span></a></li></ol><ol class="home-standards-list"><li class="home-standards-item sflg s_csd-ca_nl"><a href="https://ca.ixl.com/standards/newfoundland-and-labrador" class="home-standards-link arrow-link"><span class="arrow-link-text">Newfoundland and Labrador</span></a></li><li class="home-standards-item sflg s_csd-ca_nt"><a href="https://ca.ixl.com/standards/northwest-territories" class="home-standards-link arrow-link"><span class="arrow-link-text">Northwest Territories</span></a></li><li class="home-standards-item sflg s_csd-ca_ns"><a href="https://ca.ixl.com/standards/nova-scotia" class="home-standards-link arrow-link"><span class="arrow-link-text">Nova Scotia</span></a></li></ol><ol class="home-standards-list"><li class="home-standards-item sflg s_csd-ca_nu"><a href="https://ca.ixl.com/standards/nunavut" class="home-standards-link arrow-link"><span class="arrow-link-text">Nunavut</span></a></li><li class="home-standards-item sflg s_csd-ca_on"><a href="https://ca.ixl.com/standards/ontario" class="home-standards-link arrow-link"><span class="arrow-link-text">Ontario</span></a></li><li class="home-standards-item sflg s_csd-ca_pe"><a href="https://ca.ixl.com/standards/prince-edward-island" class="home-standards-link arrow-link"><span class="arrow-link-text">Prince Edward Island</span></a></li></ol><ol class="home-standards-list"><li class="home-standards-item sflg s_csd-ca_qc"><a href="https://ca.ixl.com/standards/quebec" class="home-standards-link arrow-link"><span class="arrow-link-text">Quebec</span></a></li><li class="home-standards-item sflg s_csd-ca_sk"><a href="https://ca.ixl.com/standards/saskatchewan" class="home-standards-link arrow-link"><span class="arrow-link-text">Saskatchewan</span></a></li><li class="home-standards-item sflg s_csd-ca_yt"><a href="https://ca.ixl.com/standards/yukon" class="home-standards-link arrow-link"><span class="arrow-link-text">Yukon</span></a></li></ol></div></div></section>
+
+    <section class="features-grid site-nav-fixed-width">
+      <div id="threeTiles" class="crisp-g"><div class="crisp-u-1-3"><div class="features-grid-box"><h3 class="features-grid-header features-grid-header-awards"><a href="https://ca.ixl.com/awards/"> Awards </a></h3><p class="feature-grid-text"> Embark on a virtual treasure hunt as you tackle math challenges and reveal fun prizes. The more you practise, the more you win! </p></div></div><div class="crisp-u-1-3"><div class="features-grid-box"><h3 class="features-grid-header features-grid-header-membership"><a href="https://ca.ixl.com/membership/"> Membership </a></h3><p class="feature-grid-text"> Explore the benefits of a family or school membership, and join the millions of students using IXL worldwide! </p></div></div><div class="crisp-u-1-3"><div class="features-grid-box"><h3 class="features-grid-header features-grid-header-reports"><a href="https://ca.ixl.com/reports/"> Reports </a></h3><p class="feature-grid-text"> Access meaningful data at your fingertips. Get real insight into practice habits, improvement over time and trouble spots. </p></div></div></div>
+    </section>
+  
+
+  <section class="home-testimonials">
+
+    <div class="site-nav-fixed-width">
+
+      <h3 class="home-testimonials-header">
+        <a href="https://ca.ixl.com/testimonials">Testimonials</a>
+      </h3>
+   
+      
+      <div class="home-testimonials-quote">
+        <p class="home-testimonials-quote-text">They have improved tremendously and gained a lot of confidence. <b>IXL has become a morning ritual in our household.</b></p>
+
+        <p class="home-testimonials-name-addr">
+          Lavanya V., parent, Sugar Hill, Georgia, U.S.A.
+        </p>
+      </div>
+
+      <h6 class="home-testimonials-read-more">
+        <a href="https://ca.ixl.com/testimonials" class="arrow-link"><span class="arrow-link-text">Read more</span></a>
+      </h6>
+
+    </div>
+
+  </section>
+
+  <footer class="home-footer">
+    <div class="site-nav-fixed-width">
+      <div id="footerBlurb" class="footer-blurb footer-section"> <img src="/css/lg_logo.png" alt="IXL" class="footer-blurb-logo"> <p class="footer-blurb-text"> IXL provides comprehensive, unlimited math practice for junior kindergarten to grade 12. </p> <a href="https://ca.ixl.com/membership/" class="crisp-button footer-blurb-button">Join now</a> <div class="footer-blurb-text footer-questions-answered"> <span id="questionsReceivedCount" class="questions-answered-number">17,785,391,457</span> <span class="questions-answered-text">questions answered!</span> </div> </div> <nav class="footer-section"> <h3 class="footer-header">What we offer</h3> <ul> <li> <a href="https://ca.ixl.com/membership/school/overview"> For schools </a> </li> <li> <a href="https://ca.ixl.com/membership/family/pricing"> For families </a> </li> <li> <a href="https://ca.ixl.com/math/"> Math practice </a> </li> <li> <a href="https://ca.ixl.com/awards/">Awards</a> </li> <li> <a href="https://ca.ixl.com/reports/">Reports</a> </li> <li> <a href="https://ca.ixl.com/standards/ontario/math">Standards</a> </li> <li> <a href="https://ca.ixl.com/apps">Mobile apps</a> </li> </ul> </nav> <nav class="footer-section"> <h3 class="footer-header">Community</h3> <ul> <li> <a href="https://ca.ixl.com/help-center/">Help center</a> </li> <li> <a href="https://ca.ixl.com/feedback">Tell us what you think</a> </li> <li> <a href="http://blog.ixl.com/">Blog</a> </li> <li> <a href="https://ca.ixl.com/testimonials">Testimonials</a> </li> <li> <a href="https://ca.ixl.com/membership/school/stories">Success stories</a> </li> <li> <a href="https://ca.ixl.com/membership/school/webinars">Webinars</a> </li> <li> <a href="https://ca.ixl.com/membership/school/development">Professional development</a> </li> <li> <a href="https://ca.ixl.com/contact">Contact us</a> </li> </ul> <div class="socialLks"> <a class="fb lk" href="https://www.facebook.com/IXL" target="_blank"></a><a class="tw lk" href="https://twitter.com/IXLLearning" target="_blank"></a><a class="pinterest lk" href="https://www.pinterest.com/IXL/" target="_blank"></a><a class="gp lk" href="https://plus.google.com/+IXL" target="_blank"></a> </div> </nav> <nav class="footer-section"> <h3 class="footer-header">About</h3> <ul> <li> <a href="https://ca.ixl.com/company/" target="_blank">Company information</a> </li> <li> <a href="https://ca.ixl.com/termsofservice">Terms of service</a> </li> <li> <a href="https://ca.ixl.com/privacypolicy">Privacy policy</a> </li> <li> <a href="https://ca.ixl.com/company/jobs" target="_blank">Jobs</a> </li> </ul> </nav> <nav class="footer-section"> <h3 class="footer-header"> Editions </h3> <ul> <li> <a href="https://www.ixl.com/" data-edition="1" class="switchLk">United States</a> </li> <li> <a href="https://au.ixl.com/" data-edition="5" class="switchLk">Australia</a> </li> <li> <a href="/css/Ikan.html" data-edition="2" class="switchLk">Canada</a> </li> <li> <a href="https://eu.ixl.com/" data-edition="8" class="switchLk">Europe</a> </li> <li> <a href="https://in.ixl.com/" data-edition="10" class="switchLk">India</a> </li> <li> <a href="https://ie.ixl.com/" data-edition="4" class="switchLk">Ireland</a> </li> <li> <a href="https://nz.ixl.com/" data-edition="6" class="switchLk">New Zealand</a> </li> <li> <a href="https://sg.ixl.com/" data-edition="9" class="switchLk">Singapore</a> </li> <li> <a href="https://za.ixl.com/" data-edition="7" class="switchLk">South Africa</a> </li> <li> <a href="https://uk.ixl.com/" data-edition="3" class="switchLk">United Kingdom</a> </li> <li> <a href="https://ca.ixl.com/international">All editions</a> </li> </ul> </nav> <div class="copyright"> © 2015 <a href="https://ca.ixl.com/company/">IXL Learning</a>. All rights reserved. </div>
+    </div>
+  </footer>
+</body></html>

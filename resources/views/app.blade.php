@@ -1,62 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Laravel</title>
 
-	<link href="{{ asset('/css/app.css') }}" rel="stylesheet">
 
-	<!-- Fonts -->
-	<link href='//fonts.googleapis.com/css?family=Roboto:400,300' rel='stylesheet' type='text/css'>
+<!--[if lt IE 9]>
+<link rel="stylesheet" href="/dv/agMZtBpM3EbjLNt5rplunj8eB6Y/yui3/crisp/crisp-css-pie-min.css">
+<![endif]-->
 
-	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-	<!--[if lt IE 9]>
-		<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-	<![endif]-->
+  <link rel="stylesheet" href="/css/site-nav-css-min.css">
+
+ 
+
+
 </head>
-<body>
-	<nav class="navbar navbar-default">
-		<div class="container-fluid">
-			<div class="navbar-header">
-				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-					<span class="sr-only">Toggle Navigation</span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-					<span class="icon-bar"></span>
-				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
-			</div>
 
-			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Home</a></li>
-				</ul>
+<body class="ixl-skin"><iframe id="_yuiResizeMonitor" title="Text Resize Monitor" tabindex="-1" role="presentation" style="position: absolute; visibility: visible; border-width: 0px; width: 2em; height: 2em; left: 0px; top: -27px; background-color: transparent;"></iframe><div id="rememberTT" class="yui-module yui-overlay yui-tt yui-overlay-hidden" style="z-index: 60; visibility: hidden;"><div class="bd">By selecting "remember" you will stay signed in on this computer until you click "sign out." If this is a public computer please do not use this feature.</div></div>
 
-				<ul class="nav navbar-nav navbar-right">
-					@if (Auth::guest())
-						<li><a href="{{ url('/auth/login') }}">Login</a></li>
-						<li><a href="{{ url('/auth/register') }}">Register</a></li>
-					@else
-						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">{{ Auth::user()->name }} <span class="caret"></span></a>
-							<ul class="dropdown-menu" role="menu">
-								<li><a href="{{ url('/auth/logout') }}">Logout</a></li>
-							</ul>
-						</li>
-					@endif
-				</ul>
-			</div>
-		</div>
-	</nav>
+<header class="site-nav-header">
+<div id="hd">
+<a id="hd-logo" class="logo" href="/"><img id="hd-logo-img" alt="IXL" title="IXL" src="/img/lg_logo.png"></a>
+
+
+<div id="hd-utility" class="add-to-zindex-calculation"><form id="searchBar" class="hd-utility-item crisp-form" method="GET" action="https://ca.ixl.com/search"><div class="skill-search-box"><input type="search" name="q" class="skill-search-input" maxlength="200" placeholder="Search topics and skills" autocomplete="off" id="yui_3_14_0_1_1435241268814_48"><button tabindex="-1" type="submit" class="skill-search-button site-nav-header-button"><i class="icon-mag-glass"></i></button><div class="searchResultsContainer" style="display: none;"><div class="searchResults"></div><div class="searchResultsShadow"></div></div></div></form><a id="csd" class="hd-utility-item csd-select" href="https://ca.ixl.com/international"><span id="csd-flag" class="csd-flag csd-flag-ca"></span><span id="csd-arrow"></span></a></div>
+
+
+
+
+<div class="headertabs"><a href="/math" class="hd-tab">Math</a><a href="/reports" class="hd-tab">Reports</a><a href="/reward" class="hd-tab hd-tab-selected">Awards</a><a href="/math" class="hd-tab"> Provincial Curriculum </a><a href="/community" class="hd-tab">Community</a><a href="/" class="hd-tab">Membership</a></div>
+
+
+
+  
+  <form action="https://ca.ixl.com/signin" method="POST" id="quickLogin" class="crisp-form"><div class="quick-login-box"><input tabindex="1001" type="text" name="username" value="" placeholder="Username" id="qlusername" class="quick-login-text-input" autocomplete="off" autocapitalize="off" autocorrect="off"><input tabindex="1002" type="password" name="password" placeholder="Password" id="qlpassword" class="quick-login-text-input" autocomplete="off" autocapitalize="off" autocorrect="off"><button tabindex="1003" name="qlsubmit" value="true" type="submit" id="qlsubmit" class="quick-login-button site-nav-header-button" aria-label="Sign in"><i class="icon-arrow"></i></button><input tabindex="1004" type="checkbox" name="rememberUser" value="true" id="quick-login-remember" class="quick-login-checkbox" autocomplete="off"><label id="remember" for="quick-login-remember" class="quick-login-label">Remember</label></div></form>
+
+
+
+  <a href="https://ca.ixl.com/signin/switch" id="switchUserLink" style="display: none;" rel="nofollow"></a>
+  
+
+
+
+
+
+
+</div>
+</header>
+
+
+  
+
 
 	@yield('content')
 
-	<!-- Scripts -->
-	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.1/js/bootstrap.min.js"></script>
-</body>
-</html>
+
+
+
+
+<footer class="site-nav-footer">
+<div id="ft" class="footer">
+<div class="utility-links">
+
+  <a href="https://ca.ixl.com/company/" target="_blank">Company information</a> |
+  <a href="http://blog.ixl.com/">Blog</a> |
+  <a href="https://ca.ixl.com/termsofservice">Terms of service</a> |
+  <a href="https://ca.ixl.com/help-center/">Help center</a> |
+  <a href="https://ca.ixl.com/feedback">Tell us what you think</a> |
+  <a href="https://ca.ixl.com/testimonials">Testimonials</a> |
+  
+  <a href="https://ca.ixl.com/international">International</a> |
+  
+  <a href="https://ca.ixl.com/company/jobs" target="_blank">Jobs</a> |
+  <a href="https://ca.ixl.com/contact">Contact us</a>
+</div>
+
+<div class="copyright">
+  <a href="https://ca.ixl.com/company/"><img src="./IXL - Awards information_files/ixl_learning_r_logo_gray_learning_txt_sm.png" alt="IXL Learning" title="IXL Learning"></a>
+  © 2015
+  IXL Learning. All rights reserved.
+
+  
+  
+    <span class="socialLks">
+      <span class="followus">Follow us</span>
+      <a class="fb lk" href="https://www.facebook.com/IXL" target="_blank"></a><a class="tw lk" href="https://twitter.com/IXLLearning" target="_blank"></a><a class="pinterest lk" href="https://www.pinterest.com/IXL/" target="_blank"></a><a class="gp lk" href="https://plus.google.com/+IXL" target="_blank"></a>
+    </span>
+  
+  
+</div>
+
+</div>
+</footer>

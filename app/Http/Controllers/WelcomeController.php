@@ -33,4 +33,21 @@ class WelcomeController extends Controller {
 		return view('welcome');
 	}
 
+
+	public function math()
+	{
+		return view('math');
+	}
+	public function reward()
+	{
+		return view('reward');
+	}
+	public function reports()
+	{
+		return view('reports');
+	}
+	public function community()
+	{
+		return view('community');
+	}
 }

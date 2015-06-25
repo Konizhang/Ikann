@@ -13,6 +13,11 @@
 
 Route::get('/', 'WelcomeController@index');
 
+Route::get('/math', 'WelcomeController@math');
+Route::get('/reward', 'WelcomeController@reward');
+Route::get('/reports', 'WelcomeController@reports');
+Route::get('/community', 'WelcomeController@community');
+
 Route::get('home', 'HomeController@index');
 
 Route::controllers([
